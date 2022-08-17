@@ -19,11 +19,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-a.link_contact:focus {
+.a:focus {
   text-decoration: overline;
   color: orange;
 }
-a.link_contact:hover {
+.a:hover {
   text-decoration: underline;
   color: teal;
 }
