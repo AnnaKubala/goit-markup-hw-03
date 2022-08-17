@@ -1,2 +1,28 @@
 body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.link_contact > a:focus {
+  text-decoration: overline;
+  color: brown;
+}
+.link_contact > a:hover {
+  text-decoration: underline;
+  color: teal;
 }
