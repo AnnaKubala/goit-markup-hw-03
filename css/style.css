@@ -8,6 +8,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  text-decoration: none;
 }
 .contact {
   font-family: "Roboto";
@@ -18,11 +19,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-.link_contact > a:focus {
+a.link_contact:focus {
   text-decoration: overline;
-  color: brown;
+  color: orange;
 }
-.link_contact > a:hover {
+a.link_contact:hover {
   text-decoration: underline;
   color: teal;
 }
