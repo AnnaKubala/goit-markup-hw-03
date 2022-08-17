@@ -1,6 +1,6 @@
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .logo {
   font-family: "Raleway";
@@ -19,11 +19,15 @@ body {
   letter-spacing: 0.02em;
 }
 
-.a:focus {
+.link_contact:focus {
   text-decoration: overline;
   color: orange;
 }
-.a:hover {
+.link_contact:hover {
   text-decoration: underline;
   color: teal;
+}
+.link_contact:active {
+  text-decoration: underline;
+  color: blue;
 }
