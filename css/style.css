@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
+  background: #ffffff;
 }
 .logo {
   font-family: "Raleway";
@@ -10,6 +11,13 @@ body {
   line-height: 31px;
   text-decoration: none;
 }
+.navigation a {
+  text-decoration: none;
+}
+
+.navigation__item:active {
+  color: #2196f3;
+}
 .contact {
   font-family: "Roboto";
   font-style: normal;
@@ -18,16 +26,19 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.contact a {
+  text-decoration: none;
+}
 
-.link_contact:focus {
+.contact__link:focus {
   text-decoration: overline;
   color: orange;
 }
-.link_contact:hover {
+.contact__link:hover {
   text-decoration: underline;
   color: teal;
 }
-.link_contact:active {
+.contact__link:active {
   text-decoration: underline;
   color: blue;
 }
