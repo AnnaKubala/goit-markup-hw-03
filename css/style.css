@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
   background: #e5e5e5;
 }
 .header {
@@ -26,25 +25,21 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  text-decoration: none;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  text-decoration: none;
   position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
   top: 24px;
 }
-.logo__color {
+.logo__color1 {
+  color: #2196f3;
+}
+.logo__color2 {
   color: #000;
 }
-.menu-nav {
-  position: absolute;
-  width: 254px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-}
+
 .navigation a {
   text-decoration: none;
 }
@@ -56,11 +51,30 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.navigation > li {
+
+.navigation__agencja {
+  color: #2196f3;
+  position: absolute;
+  width: 53px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+.navigation__portfolio {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
   color: #212121;
 }
-.navigation__item {
-  color: #2196f3;
+.navigation__kontakt {
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 656px;
+  top: 32px;
+  color: #212121;
 }
 .contact {
   font-family: "Roboto";
@@ -76,6 +90,7 @@ body {
   height: 16px;
   left: 1078px;
   top: 32px;
+  color: #2196f3;
 }
 .tel {
   position: absolute;
@@ -83,20 +98,12 @@ body {
   height: 16px;
   left: 1263px;
   top: 32px;
+  color: #757575;
 }
 .contact a {
   text-decoration: none;
 }
-.contact__link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
 
-  color: #2196f3;
-}
 .contact__link:focus {
   text-decoration: overline;
   color: orange;
