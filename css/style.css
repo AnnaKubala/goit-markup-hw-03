@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   /* font-family: "Raleway"; sans-serif; */
+  font-style: normal;
 
   background: #e5e5e5;
 }
@@ -22,8 +23,6 @@ body {
   top: 32px;
 }
 .logo {
-  font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -109,7 +108,7 @@ body {
 }
 
 .contact__link:focus {
-  text-decoration: overline;
+  text-decoration: underline;
   color: orange;
 }
 .contact__link:hover {
@@ -131,9 +130,11 @@ ul {
 .h1__text {
   position: absolute;
   width: 696px;
-  height: 120px;
+  height: 200px;
   left: 452px;
   top: 280px;
+  left: 452px;
+  bottom: 280px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -148,9 +149,25 @@ ul {
 
   color: #ffffff;
 }
-/* .button__h1 {
-  color: #2196f3;
-} */
+.order {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 
 .feature1 {
   position: absolute;
@@ -207,12 +224,13 @@ ul {
 .our-work {
   position: absolute;
   width: 1170px;
-  height: 386px;
+  height: 769px;
   left: 215px;
   top: 969px;
+  background: #e5e5e5;
+  bottom: 50px;
 }
 .our-work_header {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -224,22 +242,109 @@ ul {
   position: absolute;
   width: 370px;
   height: 294px;
-  left: 215px;
-  top: 1061px;
+  left: 0px;
 }
 .box2 {
   position: absolute;
   width: 370px;
   height: 294px;
-  left: 615px;
-  top: 1061px;
+  left: 415px;
 }
 .box3 {
   position: absolute;
   width: 370px;
   height: 294px;
-  left: 1015px;
-  top: 1061px;
+  left: 830px;
+  right: 215px;
+}
+
+.our__team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+
+  background: #f5f4fa;
+}
+.our__team_header {
+  position: absolute;
+  width: 210px;
+  height: 42px;
+  left: 695px;
+  top: 1543px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.our__team_box1 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  background-color: #ffffff;
+}
+.our__team_box2 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1635px;
+  background-color: #ffffff;
+}
+.our__team_box3 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 1635px;
+  background-color: #ffffff;
+}
+.our__team_box4 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 1635px;
+  background-color: #ffffff;
+}
+
+.our__team_name {
+  position: absolute;
+  width: 72px;
+  height: 19px;
+  left: 99px;
+  top: 290px;
+  right: 99px;
+  bottom: 59px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.our__team_position {
+  position: absolute;
+  width: 130px;
+  height: 319px;
+  top: 319px;
+  left: 70px;
+  right: 70px;
+  bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 
 .footer__logo {
@@ -247,7 +352,52 @@ ul {
   width: 145px;
   height: 31px;
   left: 215px;
-  top: 1688px;
+  right: 1240px;
+  top: 60px;
+  bottom: 161px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  position: absolute;
+}
+.logo__color3 {
+  color: #ffffff;
+}
+.adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  position: absolute;
+  width: 246px;
+  height: 21px;
+  left: 215px;
+  top: 111px;
+  right: 1139px;
+  bottom: 120px;
+}
+
+.footer_e-mail {
+  position: absolute;
+  width: 231px;
+  height: 141px;
+  left: 215px;
+  top: 141px;
+  bottom: 90px;
+  color: #2196f3;
+  cursor: pointer;
+}
+.footer_tel {
+  position: absolute;
+  width: 231px;
+  height: 171px;
+  left: 215px;
+  top: 171px;
+  bottom: 60px;
 }
 .footer__bg {
   position: absolute;
