@@ -132,8 +132,8 @@ ul {
   width: 696px;
   height: 200px;
   left: 452px;
-  top: 280px;
-  left: 452px;
+  top: 200px;
+  right: 452px;
   bottom: 280px;
 
   font-family: "Roboto";
@@ -154,12 +154,13 @@ ul {
   width: 200px;
   height: 50px;
   left: 700px;
-  top: 430px;
+  top: 370px;
+  right: 700px;
+  bottom: 200px;
 
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -224,7 +225,7 @@ ul {
 .our-work {
   position: absolute;
   width: 1170px;
-  height: 769px;
+  height: 386px;
   left: 215px;
   top: 969px;
   background: #e5e5e5;
@@ -277,41 +278,32 @@ ul {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 0.03em;
+
   color: #212121;
+}
+.our__team_box {
+  position: absolute;
+  height: 368px;
+  width: 270px;
+  top: 1635px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our__team_box1 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
   left: 215px;
-  top: 1635px;
-  background-color: #ffffff;
 }
+
 .our__team_box2 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
   left: 515px;
-  top: 1635px;
-  background-color: #ffffff;
 }
 .our__team_box3 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 1635px;
-  background-color: #ffffff;
+  left: 819px;
 }
 .our__team_box4 {
-  position: absolute;
-  width: 270px;
-  height: 368px;
   left: 1115px;
-  top: 1635px;
-  background-color: #ffffff;
 }
 
 .our__team_name {
@@ -329,26 +321,47 @@ ul {
   letter-spacing: 0.03em;
   color: #212121;
 }
-
-.our__team_position {
+.our__team_position-text {
   position: absolute;
-  width: 130px;
-  height: 319px;
-  top: 319px;
-  left: 70px;
-  right: 70px;
-  bottom: 30px;
+  height: 19px;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #757575;
+}
+.our__team_position-1 {
+  width: 130px;
+  top: 319px;
+  left: 70px;
+  right: 70px;
+  bottom: 30px;
+  letter-spacing: 0cm;
+}
+.our__team_position-2 {
+  width: 130px;
+  top: 319px;
+  left: 97px;
+  right: 97px;
+  bottom: 30px;
+}
+.our__team_position-3 {
+  width: 76px;
+  top: 319px;
+  left: 70px;
+  right: 70px;
+  bottom: 30px;
+}
+.our__team_position-4 {
+  width: 76px;
+  top: 319px;
+  left: 70px;
+  right: 70px;
+  bottom: 30px;
 }
 
 .footer__logo {
-  position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
