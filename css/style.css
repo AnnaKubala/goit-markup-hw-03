@@ -215,8 +215,6 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -295,7 +293,6 @@ ul {
 .our__team_box1 {
   left: 215px;
 }
-
 .our__team_box2 {
   left: 515px;
 }
@@ -306,11 +303,10 @@ ul {
   left: 1115px;
 }
 
-.our__team_name {
+.our__team_name-text {
   position: absolute;
   width: 72px;
   height: 19px;
-  left: 99px;
   top: 290px;
   right: 99px;
   bottom: 59px;
@@ -337,27 +333,26 @@ ul {
   left: 70px;
   right: 70px;
   bottom: 30px;
-  letter-spacing: 0cm;
 }
 .our__team_position-2 {
-  width: 130px;
+  width: 147px;
   top: 319px;
-  left: 97px;
-  right: 97px;
+  left: 62px;
+  right: 61px;
   bottom: 30px;
 }
 .our__team_position-3 {
   width: 76px;
   top: 319px;
-  left: 70px;
-  right: 70px;
+  left: 97px;
+  right: 97px;
   bottom: 30px;
 }
 .our__team_position-4 {
-  width: 76px;
+  width: 87px;
   top: 319px;
-  left: 70px;
-  right: 70px;
+  left: 92px;
+  right: 91px;
   bottom: 30px;
 }
 
