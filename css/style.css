@@ -374,6 +374,7 @@ ul {
   color: #ffffff;
 }
 .adress {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -391,21 +392,23 @@ ul {
 
 .footer_e-mail {
   position: absolute;
+  font-weight: 400;
   width: 231px;
   height: 141px;
   left: 215px;
   top: 141px;
   bottom: 90px;
-  color: #2196f3;
-  cursor: pointer;
+  color: rgb(253, 253, 253, 60%);
 }
 .footer_tel {
   position: absolute;
+  font-weight: 400;
   width: 231px;
   height: 171px;
   left: 215px;
   top: 171px;
   bottom: 60px;
+  color: rgb(253, 253, 253, 60%);
 }
 .footer__bg {
   position: absolute;
