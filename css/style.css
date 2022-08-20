@@ -113,7 +113,11 @@ body {
 }
 .contact__link:hover {
   text-decoration: underline;
-  color: teal;
+  color: #fc0a0a;
+}
+.active__link:hover{
+color:#fc0a0a;
+text-decoration: underline;
 }
 ul {
   list-style-type: none;
@@ -324,7 +328,7 @@ ul {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  letter-spacing: 0.03em;
+  /* letter-spacing: 0.03em; */
   color: #757575;
 }
 .our__team_position-1 {
