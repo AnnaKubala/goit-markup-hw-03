@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  /* font-family: "Raleway"; sans-serif; */
+
   background: #e5e5e5;
 }
 .header {
@@ -59,6 +61,7 @@ body {
   height: 16px;
   left: 453px;
   top: 32px;
+  cursor: pointer;
 }
 .navigation__portfolio {
   position: absolute;
@@ -91,6 +94,7 @@ body {
   left: 1078px;
   top: 32px;
   color: #2196f3;
+  cursor: pointer;
 }
 .tel {
   position: absolute;
@@ -112,8 +116,10 @@ body {
   text-decoration: underline;
   color: teal;
 }
-
-.order {
+ul {
+  list-style-type: none;
+}
+.h1 {
   position: absolute;
   width: 1600px;
   height: 600px;
@@ -122,7 +128,7 @@ body {
 
   background: #2f303a;
 }
-.order__text {
+.h1__text {
   position: absolute;
   width: 696px;
   height: 120px;
@@ -141,6 +147,99 @@ body {
   text-transform: uppercase;
 
   color: #ffffff;
+}
+/* .button__h1 {
+  color: #2196f3;
+} */
+
+.feature1 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+.feature2 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 515px;
+  top: 774px;
+}
+
+.feature3 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 815px;
+  top: 774px;
+}
+.feature4 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 1115px;
+  top: 774px;
+}
+
+.features__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.features__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.our-work {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+.our-work_header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.box1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+.box2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+}
+.box3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
 }
 
 .footer__logo {
