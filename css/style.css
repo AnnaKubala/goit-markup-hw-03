@@ -40,7 +40,9 @@ body {
 .logo__color2 {
   color: #000;
 }
-
+.nav_active {
+  color: #2196f3;
+}
 .navigation a {
   text-decoration: none;
 }
@@ -51,10 +53,9 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: #212121;
 }
-
 .navigation__agencja {
-  color: #2196f3;
   position: absolute;
   width: 53px;
   height: 16px;
@@ -68,7 +69,6 @@ body {
   height: 16px;
   left: 552px;
   top: 32px;
-  color: #212121;
 }
 .navigation__kontakt {
   position: absolute;
@@ -115,9 +115,9 @@ body {
   text-decoration: underline;
   color: #fc0a0a;
 }
-.active__link:hover{
-color:#fc0a0a;
-text-decoration: underline;
+.active__link:hover {
+  color: #fc0a0a;
+  text-decoration: underline;
 }
 ul {
   list-style-type: none;
@@ -422,4 +422,20 @@ ul {
   top: 2097px;
 
   background: #2f303a;
+}
+.portfolio {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
+}
+.filters {
+  position: absolute;
+  width: 572px;
+  height: 54px;
+  left: 510px;
+  top: 174px;
+  right: 518px;
+  bottom: 1652px;
 }
