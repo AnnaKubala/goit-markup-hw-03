@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  /* font-family: "Raleway"; sans-serif; */
+  /* "Raleway"; sans-serif; */
   font-style: normal;
   background: #e5e5e5;
 }
@@ -572,48 +572,77 @@ ul {
 }
 .projects {
   box-sizing: border-box;
-  position: absolute;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
 
+  /* width: 370px;
+  height: 404px; */
+  border: 1px solid #eeeeee;
   background: #ffffff;
   border: 1px solid #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 .project-1 {
+  width: 370px;
+  height: 404px;
+  left: 221px;
+  top: 266px;
 }
 .project-2 {
+  width: 370px;
+  height: 404px;
+  left: 621px;
+  top: 266px;
 }
 .project-3 {
+  width: 370px;
+  height: 404px;
+  left: 1021px;
+  top: 266px;
 }
 .project-4 {
+  left: 221px;
+  top: 700px;
 }
 .project-5 {
+  left: 621px;
+  top: 700px;
 }
 .project-6 {
+  left: 1021px;
+  top: 700px;
 }
 .project-7 {
+  left: 221px;
+  top: 1134px;
 }
 .project-8 {
+  left: 621px;
+  top: 1134px;
 }
 .project-9 {
+  left: 1021px;
+  top: 1134px;
 }
-.figcaption {
+/* .figcaption {
   position: absolute;
   width: 322px;
   height: 70px;
-}
+} */
 .project__figcaption_title {
-  position: absolute;
-  width: 322px;
-  height: 70px;
   left: 239px;
   top: 576px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
 }
 .project__figcaption_text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
