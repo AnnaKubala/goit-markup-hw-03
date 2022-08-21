@@ -28,7 +28,7 @@ body {
 .logo {
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 19;
   letter-spacing: 0.03em;
   text-decoration: none;
   position: absolute;
@@ -54,7 +54,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -86,7 +86,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.02em;
 }
 .e-mail {
@@ -147,7 +147,7 @@ ul {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1, 5;
   /* or 136% */
 
   text-align: center;
@@ -167,7 +167,7 @@ ul {
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1, 87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -211,7 +211,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -221,7 +221,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1, 71;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -239,7 +239,7 @@ ul {
 .our-work_header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1, 17;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -281,7 +281,7 @@ ul {
   top: 1543px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1, 17;
   text-align: center;
 
   color: #212121;
@@ -319,7 +319,7 @@ ul {
   bottom: 59px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1, 19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -329,7 +329,7 @@ ul {
   height: 19px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1, 19;
   text-align: center;
   /* letter-spacing: 0.03em; */
   color: #757575;
@@ -372,7 +372,7 @@ ul {
   bottom: 161px;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 19;
   letter-spacing: 0.03em;
   text-decoration: none;
   position: absolute;
@@ -384,7 +384,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1, 71;
   letter-spacing: 0.03em;
 
   color: #ffffff;
@@ -468,7 +468,7 @@ ul {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1, 63;
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -491,7 +491,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1, 63;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
@@ -515,7 +515,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1, 63;
   /* identical to box height, or 162% */
 
   text-align: center;
@@ -540,7 +540,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1, 63;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
@@ -563,22 +563,21 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1, 63;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .projects {
   box-sizing: border-box;
-  border: 1px solid #eeeeee;
   background: #ffffff;
   border: 1px solid #fff;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   padding-inline-start: 0px;
+  border-color: #fff;
 }
 .project-1 {
   margin-inline-start: 0px;
@@ -654,7 +653,7 @@ ul {
 
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
@@ -664,7 +663,7 @@ ul {
 .project__figcaption_text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1, 88;
   letter-spacing: 0.03em;
   color: #757575;
 }
