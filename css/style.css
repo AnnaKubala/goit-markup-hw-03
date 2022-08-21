@@ -2,10 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   /* "Raleway"; sans-serif; */
   font-style: normal;
-  background: #e5e5e5;
+  background: #ffffff;
 }
 .main {
-  background: #ffffff;
+  width: 1602px;
+  height: 1548px;
 }
 .header {
   position: absolute;
@@ -433,14 +434,19 @@ ul {
   left: 215px;
   top: 174px;
   border: 1px solid #eeeeee;
-  background: #fff;
 }
 .filters {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+
   width: 572px;
   height: 54px;
   left: 516px;
   top: 178px;
   right: 516px;
+  flex-direction: row;
+  border-bottom: #fff;
 }
 
 .filter-1 {
@@ -457,7 +463,6 @@ ul {
   border-radius: 4px;
 }
 .filter__text-1 {
-  position: absolute;
   left: 532px;
   top: 180px;
 
@@ -479,7 +484,6 @@ ul {
   border-radius: 4px;
 }
 .filter__text-2 {
-  position: absolute;
   left: 661px;
   top: 180px;
 
@@ -495,7 +499,6 @@ ul {
   color: #212121;
 }
 .filter-3 {
-  position: absolute;
   width: 114px;
   height: 38px;
   left: 740px;
@@ -505,7 +508,6 @@ ul {
   border-radius: 4px;
 }
 .filter__text-3 {
-  position: absolute;
   left: 762px;
   top: 180px;
 
@@ -522,7 +524,6 @@ ul {
   color: #212121;
 }
 .filter-4 {
-  position: absolute;
   width: 91px;
   height: 38px;
   left: 862px;
@@ -546,7 +547,6 @@ ul {
   color: #212121;
 }
 .filter-5 {
-  position: absolute;
   width: 121px;
   height: 38px;
   left: 961px;
@@ -572,55 +572,74 @@ ul {
 }
 .projects {
   box-sizing: border-box;
-
-  /* width: 370px;
-  height: 404px; */
   border: 1px solid #eeeeee;
   background: #ffffff;
   border: 1px solid #fff;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  padding-inline-start: 0px;
 }
 .project-1 {
+  margin-inline-start: 0px;
+  margin-inline-end: 15px;
+
   width: 370px;
   height: 404px;
   left: 221px;
   top: 266px;
 }
 .project-2 {
+  margin-inline-start: 15px;
+  margin-inline-end: 0px;
+
   width: 370px;
   height: 404px;
   left: 621px;
   top: 266px;
 }
 .project-3 {
+  margin-inline-start: 28px;
+  margin-inline-end: 0px;
+  border-right: 0px;
   width: 370px;
   height: 404px;
   left: 1021px;
   top: 266px;
 }
 .project-4 {
+  margin-inline-start: 0px;
+  margin-inline-end: 15px;
   left: 221px;
   top: 700px;
 }
 .project-5 {
+  margin-inline-start: 15px;
+  margin-inline-end: 15px;
   left: 621px;
   top: 700px;
 }
 .project-6 {
+  margin-inline-start: 13px;
+  margin-inline-end: 0px;
   left: 1021px;
   top: 700px;
 }
 .project-7 {
+  margin-inline-start: 0px;
+  margin-inline-end: 15px;
   left: 221px;
   top: 1134px;
 }
 .project-8 {
+  margin-inline-start: 15px;
+  margin-inline-end: 15px;
   left: 621px;
   top: 1134px;
 }
 .project-9 {
+  margin-inline-start: 12px;
+  margin-inline-end: 0px;
   left: 1021px;
   top: 1134px;
 }
