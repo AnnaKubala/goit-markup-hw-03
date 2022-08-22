@@ -2,7 +2,21 @@ body {
   font-family: "Roboto", sans-serif;
   /* "Raleway"; sans-serif; */
   font-style: normal;
-  background: #ffffff;
+  background: var(--background-color);
+}
+:root {
+  --brand-color: #2196f3;
+  --text-color: #212121;
+  --text2-color: #757575;
+  --footer-color: rgb(253, 253, 253, 60%);
+  --footer_bg-color: #2f303a;
+  --main-color: #ffffff;
+  --second-color: #000;
+  --focus-color: orange;
+  --border-color: #ececec;
+  --background-color: #e5e5e5;
+  --filters-color: #f5f4fa;
+  --border-2-color: #eeeeee;
 }
 .main {
   width: 1602px;
@@ -15,8 +29,8 @@ body {
   left: 0px;
   top: 0px;
 
-  background: #ffffff;
-  border: 1px solid #ececec;
+  background: var(--main-color);
+  border: 1px solid var(-border-color);
 }
 .menu_nav {
   position: absolute;
@@ -26,9 +40,11 @@ body {
   top: 32px;
 }
 .logo {
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
   position: absolute;
@@ -38,13 +54,13 @@ body {
   top: 24px;
 }
 .logo__color1 {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .logo__color2 {
-  color: #000;
+  color: var(--second-color);
 }
 .nav_active {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .navigation a {
   text-decoration: none;
@@ -54,9 +70,9 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--text-color);
 }
 .navigation__agencja {
   position: absolute;
@@ -72,6 +88,7 @@ body {
   height: 16px;
   left: 552px;
   top: 32px;
+  cursor: pointer;
 }
 .navigation__kontakt {
   position: absolute;
@@ -79,14 +96,14 @@ body {
   height: 16px;
   left: 656px;
   top: 32px;
-  color: #212121;
+  color: var(--text-color);
 }
 .contact {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .e-mail {
@@ -95,7 +112,7 @@ body {
   height: 16px;
   left: 1078px;
   top: 32px;
-  color: #2196f3;
+  color: var(--brand-color);
   cursor: pointer;
 }
 .tel {
@@ -104,7 +121,7 @@ body {
   height: 16px;
   left: 1263px;
   top: 32px;
-  color: #757575;
+  color: var(--text2-color);
 }
 .contact a {
   text-decoration: none;
@@ -112,14 +129,14 @@ body {
 
 .contact__link:focus {
   text-decoration: underline;
-  color: orange;
+  color: var(--focus-color);
 }
 .contact__link:hover {
   text-decoration: underline;
-  color: #fc0a0a;
+  color: var(--brand-color);
 }
 .active__link:hover {
-  color: #fc0a0a;
+  color: var(--brand-color);
   text-decoration: underline;
 }
 ul {
@@ -132,7 +149,7 @@ ul {
   left: 0px;
   top: 80px;
 
-  background: #2f303a;
+  background: var(--footer_bg-color);
 }
 .h1__text {
   position: absolute;
@@ -147,14 +164,14 @@ ul {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 5;
+  line-height: 1.5;
   /* or 136% */
 
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--main-color);
 }
 .order {
   position: absolute;
@@ -167,14 +184,15 @@ ul {
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--brand-color);
+  color: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .feature1 {
@@ -211,20 +229,20 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--text-color);
 }
 .features__text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--text2-color);
 }
 
 .our-work {
@@ -234,13 +252,15 @@ ul {
   left: 215px;
   top: 969px;
   bottom: 50px;
+  background: var(--main-color);
 }
 .our-work_header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 .box1 {
@@ -270,7 +290,7 @@ ul {
   left: 0px;
   top: 1449px;
 
-  background: #f5f4fa;
+  background: var(--filters-color);
 }
 .our__team_header {
   position: absolute;
@@ -280,17 +300,17 @@ ul {
   top: 1543px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.17;
   text-align: center;
 
-  color: #212121;
+  color: var(--text-color);
 }
 .our__team_box {
   position: absolute;
   height: 368px;
   width: 270px;
   top: 1635px;
-  background-color: #ffffff;
+  background-color: var(--main-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -318,20 +338,20 @@ ul {
   bottom: 59px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var (--text-color);
 }
 .our__team_position-text {
   position: absolute;
   height: 19px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   text-align: center;
   /* letter-spacing: 0.03em; */
-  color: #757575;
+  color: var(--text2-color);
 }
 .our__team_position-1 {
   width: 130px;
@@ -369,24 +389,26 @@ ul {
   right: 1240px;
   top: 60px;
   bottom: 161px;
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
   position: absolute;
 }
 .logo__color3 {
-  color: #ffffff;
+  color: var(--main-color);
 }
 .adress {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--main-color);
   position: absolute;
   width: 246px;
   height: 21px;
@@ -404,8 +426,9 @@ ul {
   left: 215px;
   top: 141px;
   bottom: 90px;
-  color: rgb(253, 253, 253, 60%);
+  color: var(--footer-color);
 }
+
 .footer_tel {
   position: absolute;
   font-weight: 400;
@@ -414,7 +437,7 @@ ul {
   left: 215px;
   top: 171px;
   bottom: 60px;
-  color: rgb(253, 253, 253, 60%);
+  color: var(--footer-color);
 }
 .footer__bg {
   position: absolute;
@@ -422,8 +445,7 @@ ul {
   height: 252px;
   left: 0px;
   top: 2097px;
-
-  background: #2f303a;
+  background: var(--footer_bg-color);
 }
 
 .portfolio {
@@ -432,7 +454,7 @@ ul {
   height: 1360px;
   left: 215px;
   top: 174px;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border-2-color);
 }
 .filters {
   margin: 0 auto;
@@ -445,7 +467,7 @@ ul {
   top: 178px;
   right: 516px;
   flex-direction: row;
-  border-bottom: #fff;
+  border-bottom: var(--main-color);
 }
 
 .filter-1 {
@@ -455,22 +477,24 @@ ul {
   top: 174px;
   right: 969px;
   bottom: 56px;
-  background: #2196f3;
+  background: var(--brand-color);
   /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  cursor: pointer;
 }
 .filter__text-1 {
   left: 532px;
   top: 180px;
-
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 63;
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-color);
 }
 
 .filter-2 {
@@ -479,8 +503,9 @@ ul {
   left: 639px;
   top: 174px;
 
-  background: #f5f4fa;
+  background: var(--filters-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 .filter__text-2 {
   left: 661px;
@@ -490,12 +515,12 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 63;
+  line-height: 1.63;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--text-color);
 }
 .filter-3 {
   width: 114px;
@@ -503,8 +528,9 @@ ul {
   left: 740px;
   top: 174px;
 
-  background: #f5f4fa;
+  background: var(--filters-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 .filter__text-3 {
   left: 762px;
@@ -514,13 +540,13 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 63;
+  line-height: 1.63;
   /* identical to box height, or 162% */
 
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(----text-color);
 }
 .filter-4 {
   width: 91px;
@@ -528,8 +554,9 @@ ul {
   left: 862px;
   top: 174px;
 
-  background: #f5f4fa;
+  background: var(--filters-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 .filter__text-4 {
   left: 884px;
@@ -539,11 +566,11 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 63;
+  line-height: 1.63;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
 }
 .filter-5 {
   width: 121px;
@@ -551,8 +578,9 @@ ul {
   left: 961px;
   top: 174px;
 
-  background: #f5f4fa;
+  background: var(--filters-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 .filter__text-5 {
   left: 983px;
@@ -562,21 +590,20 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 63;
+  line-height: 1.63;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(----text-color);
 }
 .projects {
-  box-sizing: border-box;
-  background: #ffffff;
-  border: 1px solid #fff;
+  box-sizing: var(--main-color);
+  border: 1px solid var(--main-color);
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   padding-inline-start: 0px;
-  border-color: #fff;
+  border-color: var(--main-color);
 }
 .project-1 {
   margin-inline-start: 0px;
@@ -657,12 +684,12 @@ ul {
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--text-color);
 }
 .project__figcaption_text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text2-color);
 }
