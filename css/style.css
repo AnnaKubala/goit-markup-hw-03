@@ -1,10 +1,3 @@
-body {
-  font-family: "Roboto", sans-serif;
-  /* "Raleway"; sans-serif; */
-  font-style: normal;
-  background: var(--background-color);
-  color: var(--text-color);
-}
 :root {
   --brand-color: #2196f3;
   --text-color: #212121;
@@ -19,6 +12,14 @@ body {
   --filters-color: #f5f4fa;
   --border-2-color: #eeeeee;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  /* "Raleway"; sans-serif; */
+  font-style: normal;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
 .main {
   width: 1602px;
   height: 1548px;
@@ -79,6 +80,7 @@ body {
   height: 16px;
   left: 453px;
   top: 32px;
+  color: var(--text-color);
   cursor: pointer;
 }
 .navigation__portfolio {
@@ -87,6 +89,7 @@ body {
   height: 16px;
   left: 552px;
   top: 32px;
+  color: var(--text-color);
   cursor: pointer;
 }
 .navigation__kontakt {
