@@ -149,8 +149,11 @@ ul {
   list-style-type: none;
 }
 .container_h1 {
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 200px;
   width: 1200px;
-  display: block;
   height: 600px;
   padding-left: 200px;
   padding-right: 200px;
@@ -158,21 +161,17 @@ ul {
 .h1 {
   display: flex;
   flex-direction: column;
-
   width: 1600px;
   height: 600px;
 
+  justify-content: center;
   background: var(--footer_bg-color);
 }
 .h1__text {
   display: flex;
   justify-content: center;
   width: 696px;
-
-  /* left: 452px;
-  top: 200px;
-  right: 452px;
-  bottom: 280px; */
+  margin: 0 auto;
   margin-block-start: 0;
   margin-block-end: 0;
 
@@ -191,13 +190,10 @@ ul {
 .order {
   display: flex;
   justify-content: center;
-  /* position: absolute; */
   width: 200px;
   height: 50px;
-  /* left: 700px;
-  top: 370px;
-  right: 700px;
-  bottom: 200px; */
+  margin: 0 auto;
+
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
