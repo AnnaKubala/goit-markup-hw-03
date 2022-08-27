@@ -286,7 +286,7 @@ ul {
   background-color: var(--main-color);
   display: block;
   width: 1600px;
-  height: 556px;
+  height: 480px;
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 0;
@@ -313,25 +313,25 @@ ul {
 .container__our-team {
   width: 1200px;
   display: block;
-  height: 410px;
+  height: 648px;
   padding-left: 200px;
   padding-right: 200px;
+  margin-right: 0;
 }
 .our__team {
+  display: block;
   width: 1600px;
   height: 648px;
-
-  /* left: 0px;
-  top: 1449px; */
-
+  
   background: var(--filters-color);
 }
 .our__team_header {
-  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
   width: 210px;
   height: 42px;
-  left: 695px;
-  top: 1543px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
