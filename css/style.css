@@ -32,6 +32,16 @@ body {
   width: 1600px;
   height: 2017px;
 }
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+figure {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 .header {
   display: inline-flex;
   width: 1600px;
@@ -41,7 +51,8 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
   background: var(--main-color);
-  border: 1px solid var(-border-color);
+
+  border-bottom: 1px solid var(--border-color);
 }
 .menu_nav {
   display: inline-flex;
@@ -104,7 +115,6 @@ body {
 }
 .contact {
   display: inline-flex;
-  dispaly: block;
   padding-left: 330px;
   gap: 50px;
 
@@ -451,6 +461,7 @@ ul {
   color: var(--footer-color);
 }
 .footer__bg {
+  display: block;
   width: 1600px;
   height: 252px;
 
@@ -458,19 +469,18 @@ ul {
 }
 
 .portfolio {
-  position: absolute;
   width: 1170px;
-  height: 1360px;
-  left: 215px;
-  top: 174px;
-  border: 1px solid var(--border-2-color);
+  height: 1562px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
+
 .filters {
   margin: 0 auto;
   align-items: center;
   justify-content: center;
   padding-inline-start: 0px;
-  width: 572px;
+  width: 1200px;
   height: 54px;
   flex-direction: row;
   border-bottom: var(--main-color);
@@ -483,10 +493,6 @@ ul {
 .filter-1 {
   width: 121px;
   height: 38px;
-  left: 510px;
-  top: 174px;
-  right: 969px;
-  bottom: 56px;
   background: var(--filters-color);
   /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -494,9 +500,7 @@ ul {
   border-radius: 4px;
   cursor: pointer;
 }
-.filter__text-1 {
-  left: 532px;
-  top: 180px;
+.filter__text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -510,102 +514,34 @@ ul {
 .filter-2 {
   width: 93px;
   height: 38px;
-  left: 639px;
-  top: 174px;
-
   background: var(--filters-color);
   border-radius: 4px;
   cursor: pointer;
 }
-.filter__text-2 {
-  left: 661px;
-  top: 180px;
 
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--text-color);
-}
 .filter-3 {
   width: 114px;
   height: 38px;
-  left: 740px;
-  top: 174px;
 
   background: var(--filters-color);
   border-radius: 4px;
   cursor: pointer;
-}
-.filter__text-3 {
-  left: 762px;
-  top: 180px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(----text-color);
 }
 .filter-4 {
   width: 91px;
   height: 38px;
-  left: 862px;
-  top: 174px;
-
   background: var(--filters-color);
   border-radius: 4px;
   cursor: pointer;
-}
-.filter__text-4 {
-  left: 884px;
-  top: 180px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
 }
 .filter-5 {
   width: 121px;
   height: 38px;
-  left: 961px;
-  top: 174px;
-
   background: var(--filters-color);
   border-radius: 4px;
   cursor: pointer;
 }
-.filter__text-5 {
-  left: 983px;
-  top: 180px;
 
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  /* identical to box height, or 162% */
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(----text-color);
-}
 .projects {
   box-sizing: var(--main-color);
   border: 1px solid var(--main-color);
@@ -615,88 +551,36 @@ ul {
   padding-inline-start: 0px;
   border-color: var(--main-color);
 }
-.project-1 {
-  margin-inline-start: 0px;
-  margin-inline-end: 15px;
+.project_box {
+  padding: 0;
+  gap: 30px;
+  width: 370px;
+  height: 404px;
 
+  margin-right: 29px;
+  margin-bottom: 30px;
+  border: 1px solid var(--border-2-color);
+}
+.figcaption {
+  display: block;
   width: 370px;
-  height: 404px;
-  left: 221px;
-  top: 266px;
+  height: 110px;
 }
-.project-2 {
-  margin-inline-start: 15px;
-  margin-inline-end: 0px;
-
-  width: 370px;
-  height: 404px;
-  left: 621px;
-  top: 266px;
-}
-.project-3 {
-  margin-inline-start: 28px;
-  margin-inline-end: 0px;
-  border-right: 0px;
-  width: 370px;
-  height: 404px;
-  left: 1021px;
-  top: 266px;
-}
-.project-4 {
-  margin-inline-start: 0px;
-  margin-inline-end: 15px;
-  left: 221px;
-  top: 700px;
-}
-.project-5 {
-  margin-inline-start: 15px;
-  margin-inline-end: 15px;
-  left: 621px;
-  top: 700px;
-}
-.project-6 {
-  margin-inline-start: 13px;
-  margin-inline-end: 0px;
-  left: 1021px;
-  top: 700px;
-}
-.project-7 {
-  margin-inline-start: 0px;
-  margin-inline-end: 15px;
-  left: 221px;
-  top: 1134px;
-}
-.project-8 {
-  margin-inline-start: 15px;
-  margin-inline-end: 15px;
-  left: 621px;
-  top: 1134px;
-}
-.project-9 {
-  margin-inline-start: 12px;
-  margin-inline-end: 0px;
-  left: 1021px;
-  top: 1134px;
-}
-/* .figcaption {
-  position: absolute;
-  width: 322px;
-  height: 70px;
-} */
 .project__figcaption_title {
-  left: 239px;
-  top: 576px;
+  display: flex;
 
+  padding: 20px 24px 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   /* identical to box height, or 200% */
-
   letter-spacing: 0.06em;
-
   color: var(--text-color);
 }
 .project__figcaption_text {
+  display: flex;
+
+  padding: 4px 24px 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
