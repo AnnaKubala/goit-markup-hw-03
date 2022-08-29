@@ -86,12 +86,11 @@ figure {
   display: inline-flex;
   text-decoration: none;
   color: var(--text-color);
-  /* align-items: center; */
 }
 .navigation {
   display: inline-flex;
   gap: 46px;
-  /* align-items: baseline; */
+
   align-items: center;
   font-family: "Roboto";
   font-style: normal;
@@ -163,7 +162,7 @@ ul {
 .h1 {
   display: flex;
   flex-direction: column;
-  /* width: 1600px; */
+
   height: 600px;
 
   justify-content: center;
@@ -207,48 +206,21 @@ ul {
   border-radius: 4px;
   cursor: pointer;
 }
-.section_features {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: var(--main-color);
-}
+
 .container_features {
   background-color: var(--main-color);
   width: 1200px;
   display: block;
   height: 101px;
+}
+.features_list {
+  display: flex;
+  flex-direction: row;
+
+  margin: 0 auto;
+  gap: 30px;
+
   padding-left: 200px;
-  padding-right: 200px;
-}
-
-.feature1 {
-  display: block;
-  position: absolute;
-  width: 270px;
-  left: 215px;
-  top: 774px;
-}
-.feature2 {
-  display: block;
-  position: absolute;
-  width: 270px;
-  left: 515px;
-  top: 774px;
-}
-
-.feature3 {
-  display: block;
-  position: absolute;
-  width: 270px;
-  left: 815px;
-  top: 774px;
-}
-.feature4 {
-  display: block;
-  position: absolute;
-  width: 270px;
-  left: 1115px;
-  top: 774px;
 }
 
 .features__header {
@@ -262,6 +234,8 @@ ul {
   color: var(--text-color);
 }
 .features__text {
+  width: 270px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -285,7 +259,7 @@ ul {
 .our-work {
   background-color: var(--main-color);
   display: block;
-  /* width: 1600px; */
+
   height: 480px;
   padding-left: 200px;
   padding-right: 200px;
