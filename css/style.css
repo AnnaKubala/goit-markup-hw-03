@@ -6,7 +6,7 @@
   --footer_bg-color: #2f303a;
   --main-color: #ffffff;
   --second-color: #000;
-  --focus-color: orange;
+  --focus-color: ;
   --border-color: #ececec;
   --background-color: #e5e5e5;
   --filters-color: #f5f4fa;
@@ -244,9 +244,6 @@ ul {
 
 .our-work {
   background-color: var(--main-color);
-  display: inline-block;
-  padding-left: 200px;
-  padding-right: 200px;
   padding-top: 0;
 }
 .our-work_header {
@@ -348,13 +345,8 @@ ul {
   width: 87px;
 }
 .container__footer {
-  align-items: stretch;
-  width: 1200px;
-  height: 252px;
-
-  display: inline-block;
-  margin: 60px 200px;
-  padding-left: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer__logo {
   width: 145px;
@@ -410,7 +402,6 @@ ul {
 }
 .footer__bg {
   display: block;
-  height: 252px;
 
   background: var(--footer_bg-color);
 }
@@ -427,21 +418,22 @@ ul {
   width: 1200px;
   height: 54px;
   flex-direction: row;
-
+  gap: 8px;
   display: inline-flex;
 }
 .filters__active:hover {
   background-color: var(--brand-color);
   color: var(--main-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-1 {
   width: 121px;
   height: 38px;
   background: var(--filters-color);
   /* shadow-middle */
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+
+  /* border-radius: 4px; */
   cursor: pointer;
 }
 .filter__text {
@@ -459,7 +451,7 @@ ul {
   width: 93px;
   height: 38px;
   background: var(--filters-color);
-  border-radius: 4px;
+  /* border-radius: 4px; */
   cursor: pointer;
 }
 
@@ -468,21 +460,21 @@ ul {
   height: 38px;
 
   background: var(--filters-color);
-  border-radius: 4px;
+  /* border-radius: 4px; */
   cursor: pointer;
 }
 .filter-4 {
   width: 91px;
   height: 38px;
   background: var(--filters-color);
-  border-radius: 4px;
+  /* border-radius: 4px; */
   cursor: pointer;
 }
 .filter-5 {
   width: 121px;
   height: 38px;
   background: var(--filters-color);
-  border-radius: 4px;
+  /* border-radius: 4px; */
   cursor: pointer;
 }
 
