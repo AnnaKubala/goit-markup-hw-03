@@ -54,15 +54,13 @@ figure {
 
   border-bottom: 1px solid var(--border-color);
 }
+
 .menu_nav {
   display: inline-flex;
   align-items: baseline;
   align-items: center;
 }
 .logo {
-  display: flex;
-
-  display: inline-flex;
   align-items: center;
   padding-right: 93px;
   font-family: "Raleway";
@@ -86,7 +84,8 @@ figure {
   color: var(--text-color);
 }
 .navigation {
-  display: inline-flex;
+  display: flex;
+
   gap: 46px;
 
   align-items: center;
@@ -114,9 +113,11 @@ figure {
 }
 .contact {
   display: inline-flex;
-  padding-left: 330px;
-  gap: 50px;
 
+  /* zmniejszyć padding jak dojdzie ikona koperty i tel */
+  /* padding-left: 330px; */
+  gap: 50px;
+  justify-content: center;
   align-items: center;
 
   font-family: "Roboto";
@@ -526,4 +527,9 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text2-color);
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  fill: var(--text2-color);
 }
