@@ -205,7 +205,8 @@ ul {
   background-color: var(--brand-color);
   color: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  /* border-radius: 4px; */
+  border: none;
   cursor: pointer;
 }
 
@@ -432,7 +433,7 @@ ul {
   height: 38px;
   background: var(--filters-color);
   /* shadow-middle */
-
+  border: none;
   /* border-radius: 4px; */
   cursor: pointer;
 }
@@ -453,6 +454,7 @@ ul {
   background: var(--filters-color);
   /* border-radius: 4px; */
   cursor: pointer;
+  border: none;
 }
 
 .filter-3 {
@@ -462,6 +464,7 @@ ul {
   background: var(--filters-color);
   /* border-radius: 4px; */
   cursor: pointer;
+  border: none;
 }
 .filter-4 {
   width: 91px;
@@ -469,6 +472,7 @@ ul {
   background: var(--filters-color);
   /* border-radius: 4px; */
   cursor: pointer;
+  border: none;
 }
 .filter-5 {
   width: 121px;
@@ -476,6 +480,7 @@ ul {
   background: var(--filters-color);
   /* border-radius: 4px; */
   cursor: pointer;
+  border: none;
 }
 
 .projects {
@@ -493,15 +498,13 @@ ul {
 
 .project_box {
   padding: 0;
-
   width: 370px;
-  height: 404px;
+
   border: 1px solid var(--border-2-color);
 }
 .figcaption {
   display: block;
   width: 370px;
-  height: 110px;
 }
 .project__figcaption_title {
   display: flex;
