@@ -114,9 +114,10 @@ figure {
 .contact {
   display: inline-flex;
 
-  /* zmniejszyć padding jak dojdzie ikona koperty i tel */
-  /* padding-left: 330px; */
-  gap: 50px;
+  padding-left: 330px;
+  gap: 10px;
+  /* width:315px;
+  height: 16px; */
   justify-content: center;
   align-items: center;
 
@@ -528,8 +529,14 @@ ul {
   letter-spacing: 0.03em;
   color: var(--text2-color);
 }
-.icon {
+/* svg{
+  display: flex;
+} */
+.icons__header {
+  display: flex;
   width: 16px;
   height: 16px;
-  fill: var(--text2-color);
+  background-color: red;
+  padding-right: 10px;
+  justify-content: center;
 }
